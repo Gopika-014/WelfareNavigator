@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Import slick carousel styles */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+
+/*body {
+  @apply font-sans bg-gray-100 text-gray-800;
+  font-family: theme("fontFamily.sans");
+}*/.filter-btn {
+  @apply bg-blue-600 text-white font-medium px-4 py-2 rounded-lg transition hover:bg-blue-700;
+}
+
+.scheme-card {
+  @apply bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition;
+}
+
+.apply-btn {
+  @apply mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700;
+}
+
+.category-card {
+  @apply bg-blue-100 p-6 rounded-lg shadow-md text-center hover:bg-blue-200 transition;
+}
+
+.input-field {
+  @apply border p-2 rounded shadow-sm bg-white focus:ring-2 focus:ring-blue-400;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition;
+}
+
+.btn-secondary {
+  @apply bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600 transition;
+}
+/* Hide Google Branding */
+.goog-te-gadget {
+  font-family: Arial, sans-serif !important;
+  font-size: 14px !important;
+  color: white !important; /* Change text color */
+}
+
+/* Hide the Google Translate Frame */
+.goog-te-banner-frame.skiptranslate,
+.goog-te-gadget span {
+  display: none !important;
+}
+
+/* Style the Translate Dropdown */
+#google_translate_element select {
+  background: #fff !important;
+  color: #333 !important;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Optional: Adjust Dropdown Position */
+#google_translate_element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hide Google Translate Toolbar */
+body > .skiptranslate {
+  display: none !important;
+}
+
+/* Remove Extra Space */
+.goog-te-banner-frame {
+  display: none !important;
+}
+
